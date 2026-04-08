@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class main {
 
-    // Функция считает символы в строке
+
     public static int count(String s){
     if ( s.length() == 0) return 0;
     return 1 + count(s.substring(1));
